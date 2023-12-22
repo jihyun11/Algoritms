@@ -1,0 +1,13 @@
+h1 {
+    color: cornflowerblue;
+    transition: color 0.5s ease-in-out;
+}
+
+body {
+    background-color: beige;
+}
+
+.clicked {
+    color: tomato;
+}
+
