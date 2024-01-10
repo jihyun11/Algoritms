@@ -1,4 +1,4 @@
-package org.example;
+package org.example.generic;
 
 /**
  * 어떠한 타입이든 하나의 상품을 세팅 및 Get할수 있다.
