@@ -1,5 +1,4 @@
 package org.example.wordchain.realchat;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
@@ -8,8 +7,9 @@ import java.awt.event.ActionListener;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import DB.*;
-import frame.home;
+import org.example.wordchain.DB.MemberDB;
+import org.example.wordchain.frame.home;
+
 
 
 public class GameServer extends JFrame implements ActionListener {
