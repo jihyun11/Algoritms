@@ -13,9 +13,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-
-import DB.*;
-import frame.*;
+import org.example.wordchain.DB.MemberDB;
+import org.example.wordchain.frame.home;
 
 public class Join extends JFrame implements ActionListener {
 	

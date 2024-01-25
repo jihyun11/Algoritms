@@ -11,10 +11,10 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
-
-import DB.*;
-import frame.*;
-import realchat.*;
+import org.example.wordchain.DB.MemberDB;
+import org.example.wordchain.frame.home;
+import org.example.wordchain.realchat.GameClient;
+//import realchat.*;
 
 public class home extends JFrame implements ActionListener {
 	

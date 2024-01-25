@@ -1,5 +1,7 @@
 package org.example.wordchain.frame;
 
+import org.example.wordchain.DB.MemberDB;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -13,9 +15,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-
-import DB.*;
-import frame.*;
+//import DB.*;
+//import frame.*;
 
 public class login extends JFrame implements ActionListener {
 	
