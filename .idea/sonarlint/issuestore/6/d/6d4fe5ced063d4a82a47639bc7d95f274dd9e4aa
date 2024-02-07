@@ -1,0 +1,30 @@
+
+>
+java:S2189Ş""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+l	java:S116"WRename this field "ClientWinMsg" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÓº¤
+E
+java:S1948"*Make "listener" transient or serializable.(·Œøÿÿÿÿ
+C
+java:S1948"(Make "socket" transient or serializable.(„±›Ôúÿÿÿÿ
+?
+java:S1948"$Make "in" transient or serializable.(ĞĞàäùÿÿÿÿ
+@
+java:S1948"%Make "out" transient or serializable.(û§Õöşÿÿÿÿ
+u
+java:S3252D"ZUse static access with "javax.swing.ScrollPaneConstants" for "HORIZONTAL_SCROLLBAR_NEVER".(’ˆ›ãúÿÿÿÿ
+Q	java:S125J"<This block of commented-out lines of code should be removed.(´¸šÔ
+m
+java:S3776~"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(¼ Òşüÿÿÿÿ
+?	java:S108")Either remove or fill this block of code.(ıœ–®
+X
+java:S1117—"<Rename "lastChar" which hides the field declared at line 28.(§õ¶Šøÿÿÿÿ
+Y
+java:S1117˜"=Rename "firstChar" which hides the field declared at line 29.(şÄ©Ãûÿÿÿÿ
+g
+java:S1858è"P"lastCharacter" is already a string, there's no need to call "toString()" on it.(İ¸õä
+F
+java:S2093Ğ"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+B
+java:S1068",Remove this unused "lastChar" private field.(°ÕÙ˜
+H
+java:S1068"-Remove this unused "firstChar" private field.(´‹ÂÃûÿÿÿÿ
