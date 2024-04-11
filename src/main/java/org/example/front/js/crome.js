@@ -1,6 +1,10 @@
 const loginInput = document.querySelector("#login-form input");
 const loginForm = document.querySelector("#login-form");
 const greeting = document.querySelector("#greeting");
+const loggedInUser = localStorage.getItem('username');
+const logoutBtn = document.querySelector('#logout-btn');
+
+
 
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
@@ -25,3 +29,22 @@ if (savedUsername === null) { //localstorage에 저쟝된 값이 있는지만 �
 } else {
     paintGreetings(savedUsername);
 }
+
+
+function updateLoginStatus() {
+    if (loggedInUser) {
+        logoutBtn.classList.remove('hidden');
+        loginForm.classList.add('hidden');
+    } else {
+        logoutBtn.classList.add('hidden');
+        loginForm.classList.remove('hidden');
+    }
+}
+
+
+updateLoginStatus();
+
+logoutBtn.addEventListener('click', function() {
+    localStorage.removeItem('username');
+    updateLoginStatus();
+});
